@@ -13,11 +13,14 @@ section{
     float: left;
     padding: 10px;
 }
+.top-banner-left{
+    line-height: 1.5;
+}
 .focused-header{
     border-left: 4px solid red;
     padding-left: 10px;
     font-size: 30px;
-    margin-top: 100px;
+    margin-top: 130px;
 }
 .focused-header .stay{
     margin: 0px;
@@ -38,3 +41,34 @@ button{
     border: none;
 
 }
+/* mission */
+.mission_header{
+    text-align: center;
+    font-weight: bold;
+}
+.mission_header span{
+    color: #FFAD5A;;
+}
+.mission_items {
+    width: 28%;
+    text-align: left;
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    height: 270px;
+    border-radius: 8px;
+    padding-top: 20px;
+}
+.mission_items img{
+    width: 30%;
+}
+.mission_left {
+    background: #EDF5F6;
+}
+.mission_middle{
+    background: #FFEEEE;
+}
+.mission_right{
+    background: #FFF4D6;
+}
+
