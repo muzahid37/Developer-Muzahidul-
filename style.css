@@ -1,11 +1,19 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 img{
     max-width: 100%;
 }
 section{
-    display: ;
-    padding-bottom: 150px;
+
     width:80%;
     margin: auto;
+    padding: bottom 50px; ;
+}
+.top-banner{
+    height: 600px;
+    display: flex;
+    align-items: stretch;
 }
 .half-with{
     width: 45%;
@@ -46,6 +54,9 @@ button{
     text-align: center;
     font-weight: bold;
 }
+.My_Mission {
+    height: 450px;
+}
 .mission_header span{
     color: #FFAD5A;;
 }
@@ -59,8 +70,17 @@ button{
     border-radius: 8px;
     padding-top: 20px;
 }
+.mission_items h2{
+    font-size: 21px;
+    color: #bdab54;
+}
 .mission_items img{
     width: 30%;
+}
+.mission_items p{
+    font-size: 14px;
+    color: #a8a8a8;
+    line-height: 1.6;
 }
 .mission_left {
     background: #EDF5F6;
@@ -83,11 +103,65 @@ button{
     display: block;
     padding: 10px 0px;
 }
+.codding_photo{
+    margin-left: 20px;
+    width: 70%;
+}
 .development_items_right p{
     line-height: 1.3;
 }
 .development{
      background: url("img/shape-1.png") no-repeat;
+     background-size: 135px;
+     background-position:left center;
 }
+.content_height{
+    height: 430px;
 
+}
+.Global_Community{
+    background: url("img/shape-1.png") no-repeat;
+    background-size: 135px;
+    background-position:bottom right;
+}
+.footer{
+    text-align: center;
+    background-color: #0B0D17;
+    height: auto;
+    color: #fff;
+}
+.footer h2 {
+    font-size: 50px;
+    margin: 0px;
+    padding: 14px 0px 0px 0px;
+}
+.footer h2 span{
+    color: #FF5959;
+
+}
+.footer p{
+    color: #a8a8a8;
+    line-height: 3;
+}
+.fortfolio_wreper{
+    display: flex;
+    flex-direction: row;
+    padding: 25px 0px;
+}
+/* portfolio */
+.portfolio{
+    text-align: center;
+}
+.portfolio h1{
+    border-bottom: 4px solid #FF5959;
+    display: inline;
+    padding-bottom: 11px;
+}
+.fortfolio_wreper .galary{
+    margin: 20px;
+}
+.fortfolio_wreper .galary:hover{
+    opacity: .5;
+    color: black;
+}
 
